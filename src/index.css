@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background: linear-gradient(
+    to right,
+    #1a0700,
+    #1d0900,
+    #1f0a01,
+    #210c01,
+    #230d01,
+    #230d01,
+    #230d01,
+    #230d01,
+    #210c01,
+    #1f0b01,
+    #1d0901,
+    #1b0801
+  );
+  background-size: cover;
+}
+
+.sura {
+  font-family: "Sura", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Battle Road Vintage";
+  src: url("./assets/Font/BATTLE_ROAD_VENTAGE_DEMO.ttf") format("truetype");
+}
+
+.BATTLEROAD {
+  font-family: "Battle Road Vintage";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 101px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #f9c924 0%,
+    #e4af18 32%,
+    #fff98c 68%,
+    #ffd440 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.button-bg {
+  background: linear-gradient(
+    180deg,
+    #f9c924 0%,
+    #e4af18 32%,
+    #fff98c 68%,
+    #ffd440 100%
+  );
+}
+
+.bg-img {
+  background-image: url("./assets/Background.png");
+  background-size: cover;
+  z-index: 0;
+}
+
+.glass-effect-box-header {
+  background: linear-gradient(
+    91deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.41) 100%
+  );
+  backdrop-filter: blur(11.949999809265137px);
+}
